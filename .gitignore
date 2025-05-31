@@ -1,0 +1,46 @@
+.DS_Store
+node_modules
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+.vercel
+.next
+out
+next-env.d.ts
+.env
+.env.local
+# Ignore build output
+dist
+# Ignore logs   
+# clerk configuration (can include secrets)
+/.clerk/
+service_key.json 
+# Ignore Firebase configuration
+firebase.json
+# Ignore Firebase configuration files
+firebase-debug.log
+# Ignore Firebase configuration files
+firebase.rules
+# Ignore Firebase configuration files
+firebase.token
+# Ignore Firebase configuration files
+firebase.serviceAccountKey.json
+# Ignore Firebase configuration files
+firebase.config.js
+# Ignore Firebase configuration files
+firebase.config.ts
+# Ignore Firebase configuration files
+firebase.config.json
+# Ignore Firebase configuration files
+firebase.config.yaml
+# Ignore Firebase configuration files
+firebase.ts
+# Ignore IDE specific files 
+.idea
+firebase.ts
+firebase-admin.ts
+*.serviceAccountKey.json
+.env
+# Ignore TypeScript build files     
+*.tsbuildinfo
